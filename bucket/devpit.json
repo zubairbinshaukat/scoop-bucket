@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zubairbinshaukat/devpit/releases/download/v0.1.0/devpit_0.1.0_windows_amd64.zip",
+            "bin": [
+                "devpit.exe"
+            ],
+            "hash": "230769b1c403c2db0a200be01eef46acbc2bf03c85699006982a92a4b69d37e8"
+        },
+        "arm64": {
+            "url": "https://github.com/zubairbinshaukat/devpit/releases/download/v0.1.0/devpit_0.1.0_windows_arm64.zip",
+            "bin": [
+                "devpit.exe"
+            ],
+            "hash": "a70e46b9ac2978093e2bedbaa96c1d1a898d67e2d836ea04090161656a0a9c9b"
+        }
+    },
+    "homepage": "https://github.com/zubairbinshaukat/devpit",
+    "license": "MIT",
+    "description": "A pit stop for your dev machine - free disk space, fix stuck ports, update your tools"
+}
