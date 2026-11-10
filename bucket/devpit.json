@@ -1,21 +1,21 @@
 {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zubairbinshaukat/devpit/releases/download/v0.5.0/devpit_0.5.0_windows_amd64.zip",
+            "url": "https://github.com/zubairbinshaukat/devpit/releases/download/v0.5.1/devpit_0.5.1_windows_amd64.zip",
             "bin": [
                 "devpit-shim.exe",
                 "devpit.exe"
             ],
-            "hash": "e4513727773238759da63a695111ff680383647d52f909fd6145a57ffaaa855c"
+            "hash": "a514a93696a934a9396fd8974426666d9d4212e8dcf83e076d8a0f66b791a9ab"
         },
         "arm64": {
-            "url": "https://github.com/zubairbinshaukat/devpit/releases/download/v0.5.0/devpit_0.5.0_windows_arm64.zip",
+            "url": "https://github.com/zubairbinshaukat/devpit/releases/download/v0.5.1/devpit_0.5.1_windows_arm64.zip",
             "bin": [
                 "devpit-shim.exe",
                 "devpit.exe"
             ],
-            "hash": "b486b2b6accc7917cade1fceeca42411219f1878eb12cd6fffe8a12aa6366ec0"
+            "hash": "d17d4d23b002fbe8ea3b9f690364736646756aa475606118c1feb35c6ced10e5"
         }
     },
     "homepage": "https://github.com/zubairbinshaukat/devpit",
