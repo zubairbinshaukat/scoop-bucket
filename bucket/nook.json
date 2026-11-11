@@ -1,0 +1,39 @@
+{
+    "version": "0.2.2",
+    "description": "Shows your Claude Code sessions in an island at the top of the screen and lets you answer their permission requests and questions.",
+    "homepage": "https://github.com/zubairbinshaukat/nook",
+    "license": "MIT",
+    "notes": "Open Nook from the Start menu, then turn on Claude Code hooks in its Settings.",
+    "architecture": {
+        "64bit": {
+            "url": [
+                "https://github.com/zubairbinshaukat/nook/releases/download/v0.2.2/nook.exe",
+                "https://github.com/zubairbinshaukat/nook/releases/download/v0.2.2/nook-hook.exe"
+            ],
+            "hash": [
+                "0db32064755dafd05d1eee8722799c9643c3706e05f2fcf33038e4ab746f41ca",
+                "3d2d1e66f8093920f0942e1f4c61dba427e62df957d3fe7fc54010e06e959af6"
+            ]
+        }
+    },
+    "shortcuts": [
+        [
+            "nook.exe",
+            "Nook"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": [
+                    "https://github.com/zubairbinshaukat/nook/releases/download/v$version/nook.exe",
+                    "https://github.com/zubairbinshaukat/nook/releases/download/v$version/nook-hook.exe"
+                ],
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS.txt"
+                }
+            }
+        }
+    }
+}
